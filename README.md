@@ -1,23 +1,23 @@
-This is a full stack form-builder application.
+# FormCraft
 
-Technologies Used:
+![FormCraft Landing Page](public/cover.png)
 
-- Nextjs 13 with AppRouter
-- Dnd-kit library
-- ServerActions
-- Typescript
-- Tailwindcss / Shadcn UI
-- Vercel PostgreSQL
-- Prisma as ORM
+## About the Project
 
-Features:
+FormCraft is a comprehensive platform designed to streamline the process of creating and sharing forms for data collection. Inspired by platforms like Google Forms, the Form Builder App offers a seamless experience for users to design forms, share them, and analyze the collected data.
 
-- Responsive
-- Create forms with a stunning drag and drop designer
-- Layout fields: Title, SubTitle, Spacer, Separator, Paragraph
-- Form fields: Text, Number, Select, Date, Checkbox, Textarea
-- Is easy to add and customize new fields
-- Form preview dialog
-- Share form url
-- Form submission/validation
-- Form stats: visits and submissions
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS, Shadcn
+- **Backend**: Prisma as ORM
+
+## Features
+
+- **Form Creation**: Users start by dragging and dropping form fields into the builder and customizing them.
+- **Form Preview and Publishing**: Users preview the form to ensure it meets their requirements and then save and publish it to get a shareable link.
+- **Form Sharing and Submission**: The shareable link is distributed, and respondents fill out and submit the form.
+- **Analytics and Management**: Users access the analytics dashboard to monitor form performance and view detailed submission data.
+
+## Live Demo
+
+Check out the live demo: [FormCraft](https://form-builder-nine-hazel.vercel.app/)
